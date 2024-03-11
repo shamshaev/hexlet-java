@@ -1,0 +1,6 @@
+name: actions-check
+
+on: push
+
+jobs: make say-hello
+  runs-on: ubuntu-latest
