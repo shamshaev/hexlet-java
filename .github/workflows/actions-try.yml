@@ -2,5 +2,9 @@ name: actions-check
 
 on: push
 
-jobs: make say-hello
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      -hello: make say-hello
 
