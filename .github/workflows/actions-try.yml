@@ -3,10 +3,11 @@ name: actions-try
 on: push
 
 jobs:
-  build:
+  my_first_job:
     runs-on: ubuntu-latest
     steps:
-      - name: print "Hello, World!"
-      run: make say-hello
+      - name: say Hello, World!
+        uses: ./
+        run: make say-hello
 
 
