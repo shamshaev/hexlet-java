@@ -6,6 +6,8 @@ jobs:
   my_first_job:
     runs-on: ubuntu-latest
     steps:
+      - name: checkout repo
+        uses: actions/checkout@main
       - name: say Hello, World!
-        run: make say-hello -f ./../../Makefile
+        run: make say-hello
 
