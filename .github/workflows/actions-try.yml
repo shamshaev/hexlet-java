@@ -1,4 +1,4 @@
-name: actions-check
+name: actions-try
 
 on: push
 
