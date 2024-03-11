@@ -6,6 +6,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - run: make say-hello -f ./../../Makefile
+      - run: make say-hello -C ./../../
 
 
