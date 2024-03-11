@@ -6,6 +6,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - run: make say-hello -C ./../../
+      - name: print "Hello, World!"
+        run: make say-hello
 
 
