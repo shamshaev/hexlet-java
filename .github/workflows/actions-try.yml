@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: say Hello, World!
-        uses: ./
+       # uses: ./
         run: make say-hello
 
 
